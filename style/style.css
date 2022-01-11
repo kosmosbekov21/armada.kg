@@ -1,0 +1,368 @@
+body{
+    padding: 8;
+    margin: 8;
+    box-sizing: border-box;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #65256F;
+    cursor: pointer;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.divv{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.toolbar p{
+    color: #FFB700;
+}
+.divv p{
+    color: white
+}
+.divv a{
+    text-decoration: none;
+    color: #FFB700; 
+}
+/* section-1 */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+}
+.menu-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+}
+.menu-lists li{
+    list-style: none;
+}
+.menu-lists a{
+    text-decoration: none;
+    color: black;
+}
+.menu-lists a:hover{
+    border-bottom: 1px solid black;
+    transition: .6s;
+}
+.menu-lists button{
+    padding: 10px;
+    background-color: #602769;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.menu-lists button:hover{
+    background: #16021a;
+    transition: .7s;
+}
+/* header-1 */
+
+.foto{
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    display: flex;
+    justify-content: space-between;
+}
+.foto h2{
+    font-size: 3rem;
+    color: white;
+    padding-top: 10rem;
+}
+.foto p{
+    font-size: 30px;
+    color: white;
+}
+.foto button{
+    padding: 10px 50px 10px 50px;
+    background-color: #FFC957;
+    border-radius: 4px;
+    color: black;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.foto button:hover{
+    background-color: #fce409;
+    transition: .7s;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+.icons a{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 2rem;
+}
+.icons a:hover{
+    transform: scale(1.4);
+    transition: .7s;
+    color: #11f037;
+}
+/* ---------------------- */
+.uslugi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.uslugi h1{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.uslugi img{
+    width: 41%;
+}
+/*--line--*/
+.blok-a{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.blok-a1{
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 0 0 8px rgba(51, 48, 48, 0.104);
+    padding: 40px;
+    margin: 10px;
+    font-size: 15px;
+}
+/* ----------------- */
+.rabota{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.rabota h1{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.rabota img{
+    width: 41%;
+}
+/* -------------------- */
+.blok-3{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+}
+.blok-3 h3{
+    text-align: start;
+    padding-top: 14rem;
+    padding-left: 1rem;
+    font-size: 20px;
+    color: white;
+}
+.foto-78{
+    background-image: url('../img/group-2/Rectangle\ 78.png');
+    width: 290px;
+    height: 290px;
+}
+.foto-79{
+    background-image: url(../img/group-2/Rectangle\ 79.png);
+    width: 290px;
+    height: 290px;
+}
+.foto-80{
+    background-image: url('../img/group-2/Rectangle\ 80.png');
+    width: 290px;
+    height: 290px;
+}
+/* ----------------- */
+.blok-4{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 2rem;
+}
+.blok-4 h3{
+    text-align: start;
+    padding-top: 14rem;
+    padding-left: 1rem;
+    font-size: 20pxrem;
+    color: white;
+}
+.foto-81{
+    background-image: url('../img/group-2/Rectangle\ 81.png');
+    width: 290px;
+    height: 290px;
+}
+.foto-82{
+    background-image: url('../img/group-2/Rectangle\ 82.png');
+    width: 290px;
+    height: 290px;
+}
+.foto-83{
+    background-image: url('../img/group-2/Rectangle\ 83.png');
+    width: 290px;
+    height: 290px;
+}
+.buttonss{
+    padding: 10px 100px 10px 100px;
+    margin-top: 2rem;
+    margin-left: 32rem;
+    background-color: rgb(148, 7, 148);
+    border-radius: 4px;
+    color: white;
+    border: none;
+    font-size: 20px; 
+    cursor: pointer;   
+}
+.buttonss:hover{
+    background-color: rgb(45, 16, 49);
+    transition: .7s;
+}
+/* ---------------------- */
+.price{
+    display: flex;
+    justify-content: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.our-price img{
+    width: 15rem;
+    height: 20rem;
+    padding-top: 2rem;
+}
+.our-price p{
+    color: #5e5050; 
+}
+/* -------------------- */
+.our-clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.our-clients h1{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.our-clients img{
+    width: 40%;
+}
+.img-clients{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+}
+/* ---------------------- */
+.our-team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.our-team h1{
+    display: flex;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.our-team img{
+    width: 40%;
+}
+/* ----------- */
+.team{
+    display: flex;
+    justify-content: center;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.team img{
+    width: 80%;
+}
+.team p{
+   color: #694e4e
+}
+/* ------------------ */
+.application h2{
+    text-align: center;
+    padding-top: 4rem;
+}
+.application p{
+    text-align: center;
+}
+.batnn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+.batnn input{
+    background-color: #e7e7e7;    
+    border: none;
+    padding: 7px 50px;
+    text-align: start;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.your-name{
+    font-size: 15px;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 2px;
+    background-color: #65256F;
+    color: rgb(201, 192, 177);
+    cursor: pointer;
+}
+.your-name:hover{
+    background: #16021a;
+    transition: .7s;
+}
+/* ----------------- */
+.point{
+    background-color: #181313;
+    height: 19rem;
+    margin-top:  4rem;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+}
+.the-end h4{
+    color: white;
+}
+.the-end p{
+    color: #7e7676;
+}
