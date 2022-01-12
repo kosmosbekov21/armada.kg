@@ -1,0 +1,114 @@
+body{
+    padding: 8;
+    margin: 8;
+    box-sizing: border-box;
+}
+.toolbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #65256F;
+    cursor: pointer;
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+.divv{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.toolbar p{
+    color: #FFB700;
+}
+.divv p{
+    color: white
+}
+.divv a{
+    text-decoration: none;
+    color: #FFB700; 
+}
+/* section-1 */
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    align-items: center;
+}
+.menu-lists{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    font-size: 20px;
+}
+.menu-lists li{
+    list-style: none;
+}
+.menu-lists a{
+    text-decoration: none;
+    color: black;
+}
+.menu-lists a:hover{
+    border-bottom: 1px solid black;
+    transition: .6s;
+}
+.menu-lists button{
+    padding: 10px;
+    background-color: #602769;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.menu-lists button:hover{
+    background: #16021a;
+    transition: .7s;
+}
+/* header-1 */
+.maps{
+    display: flex;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+}
+.map{
+    display: flex;
+    flex-direction: column;
+}
+.map h1{
+    text-align: left;
+    font-size: 30px;
+}
+.map h2{
+    color: #A4A4A4;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.map p{
+    color: black;
+    font-size: 15px;
+    padding-left: 30px;
+}
+/* ----------------- */
+.point{
+    background-color: #181313;
+    height: 19rem;
+    margin-top:  4rem;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 3rem;
+}
+.the-end h4{
+    color: white;
+}
+.the-end p{
+    color: #7e7676;
+}
